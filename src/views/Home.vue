@@ -1,5 +1,8 @@
 <template>
   <div>
+    <div>
+      Element PlusのUIサンプル集
+    </div>
     <el-calendar v-model="value" />
   </div>
 </template>
