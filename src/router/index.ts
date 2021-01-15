@@ -2,6 +2,7 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
 import Home from '@/views/Home.vue';
 import InfinityLoad from '@/views/ui/InfinityLoad.vue';
 import Table from '@/views/ui/Table.vue';
+import Form from '@/views/ui/Form.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -18,6 +19,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/ui-sample/table',
     name: 'Table',
     component: Table
+  },
+  {
+    path: '/ui-sample/form',
+    name: 'Form',
+    component: Form
   }
 ];
 

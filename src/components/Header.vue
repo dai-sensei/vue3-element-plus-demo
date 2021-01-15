@@ -11,6 +11,9 @@
       <template #title>
         UI Sample
       </template>
+      <el-menu-item index="Form">
+        Form
+      </el-menu-item>
       <el-menu-item index="InfinityLoad">
         Infinity Load
       </el-menu-item>
