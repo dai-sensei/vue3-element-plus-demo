@@ -26,14 +26,16 @@ export default defineComponent({
   name: 'Header',
   setup() {
     const router = useRouter();
-    const activeIndex = ref('Home');
+    const activeIndex = ref<string>('Home');
 
-    function menuSelect(key) {
+    function menuSelect(key: string) {
       router.push({ name: key });
     }
 
     router.beforeEach((to, from, next) => {
-      activeIndex.value = to.name;
+      if (to.name && typeof to.name === 'string') {
+        activeIndex.value = to.name;
+      }
       next();
     });
 
