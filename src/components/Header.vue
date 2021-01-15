@@ -14,6 +14,9 @@
       <el-menu-item index="InfinityLoad">
         Infinity Load
       </el-menu-item>
+      <el-menu-item index="Table">
+        Table
+      </el-menu-item>
     </el-submenu>
   </el-menu>
 </template>

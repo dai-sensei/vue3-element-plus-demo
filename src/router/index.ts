@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
-import Home from '../views/Home.vue';
-import InfinityLoad from '../views/ui/InfinityLoad.vue';
+import Home from '@/views/Home.vue';
+import InfinityLoad from '@/views/ui/InfinityLoad.vue';
+import Table from '@/views/ui/Table.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -12,6 +13,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/ui-sample/infinity-load',
     name: 'InfinityLoad',
     component: InfinityLoad
+  },
+  {
+    path: '/ui-sample/table',
+    name: 'Table',
+    component: Table
   }
 ];
 
