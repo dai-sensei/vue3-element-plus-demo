@@ -11,6 +11,9 @@
       <template #title>
         UI Sample
       </template>
+      <el-menu-item index="Collapse">
+        Collapse
+      </el-menu-item>
       <el-menu-item index="Form">
         Form
       </el-menu-item>
